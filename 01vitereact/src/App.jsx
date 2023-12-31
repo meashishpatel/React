@@ -1,10 +1,14 @@
-import Chai from "./chai"
+import Chai from "./chai";
 
 function App() {
+  const username = "ashishpatel";
 
   return (
-    <Chai/>
-  )
+    <>
+      <Chai />
+      <h1>Chai or react{username}</h1>
+    </>
+  );
 }
 
-export default App
+export default App;
